@@ -12,6 +12,11 @@
       .ad {
         font-family: "ADLaM Display", serif;
       }
+      #bg-img {
+        background-image: url(c1-assets/cute-pet-small.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+      }
     </style>
     <!-- link google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,7 +70,7 @@
             </ul>
           </div>
           <img src="c1-assets/logo-header.png" alt="" />
-          <a class="text-3xl pl-2"
+          <a class="text-3xl pl-2 hidden md:block"
             >Browse<span class="text-[#ffdc26]">4</span>Pets</a
           >
         </div>
@@ -76,7 +81,7 @@
             <li><a>Contact us</a></li>
           </ul>
         </div>
-        <div class="navbar-end gap-3">
+        <div class="navbar-end gap-3 hidden md:flex md:block">
           <i class="fa-regular fa-bell"></i>
           <i class="fa-solid fa-magnifying-glass"></i>
           <a class="btn border-2 border-yellow-500">Login</a>
@@ -133,10 +138,10 @@
         >
           <img
             class="bg-white rounded-full p-6"
-            src="c1-assets/dog-cartoon.png"
+            src="c1-assets/fish-cartoon.png"
             alt=""
           />
-          <h1 class="text-2xl font-bold pt-6 pb-3">Dog</h1>
+          <h1 class="text-2xl font-bold pt-6 pb-3">Fish</h1>
           <h2 class="text-xl">3 items</h2>
         </div>
         <div
@@ -144,10 +149,10 @@
         >
           <img
             class="bg-white rounded-full p-6"
-            src="c1-assets/dog-cartoon.png"
+            src="c1-assets/cat-cartoon.png"
             alt=""
           />
-          <h1 class="text-2xl font-bold pt-6 pb-3">Dog</h1>
+          <h1 class="text-2xl font-bold pt-6 pb-3">Cat</h1>
           <h2 class="text-xl">3 items</h2>
         </div>
         <div
@@ -155,10 +160,10 @@
         >
           <img
             class="bg-white rounded-full p-6"
-            src="c1-assets/dog-cartoon.png"
+            src="c1-assets/bird-cartoon.png"
             alt=""
           />
-          <h1 class="text-2xl font-bold pt-6 pb-3">Dog</h1>
+          <h1 class="text-2xl font-bold pt-6 pb-3">Birds</h1>
           <h2 class="text-xl">3 items</h2>
         </div>
         <div
@@ -166,10 +171,10 @@
         >
           <img
             class="bg-white rounded-full p-6"
-            src="c1-assets/dog-cartoon.png"
+            src="c1-assets/mouse-cartoon.png"
             alt=""
           />
-          <h1 class="text-2xl font-bold pt-6 pb-3">Dog</h1>
+          <h1 class="text-2xl font-bold pt-6 pb-3">Small pet</h1>
           <h2 class="text-xl">3 items</h2>
         </div>
         <div
@@ -177,14 +182,187 @@
         >
           <img
             class="bg-white rounded-full p-6"
-            src="c1-assets/dog-cartoon.png"
+            src="c1-assets/rabbit-cartoon.png"
             alt=""
           />
-          <h1 class="text-2xl font-bold pt-6 pb-3">Dog</h1>
+          <h1 class="text-2xl font-bold pt-6 pb-3">Rabbit</h1>
           <h2 class="text-xl">3 items</h2>
         </div>
+      </div>
+    </section>
 
+    <!-- pet products -->
 
+    <section class="mb-40 bg-[#fff9f4] py-40">
+      <div class="md:container mx-auto">
+        <h1 class="mb-10 text-4xl ad">Trending Pet Products</h1>
+        <!-- cards -->
+        <div class="grid grid-cols-5 bg-[#fff9f4] gap-8">
+          <!-- card 1 -->
+          <div
+            id="bg-img"
+            class="row-span-3 col-span-2 bg-[#f9df8a] pt-12 pl-8 rounded-lg"
+          >
+            <h1 class="text-2xl font-semibold">T-Shirt For Dogs</h1>
+            <p class="text-gray-500">
+              Discover a world of treats, toys, and essentials handpicked for
+            </p>
+            <button class="btn">Shop Now</button>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg gap-3 flex items-center">
+            <div class="pl-3 py-3">
+              <img
+                class="bg-[#fff9f4] p-5 rounded-md"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.5</h3>
+              </div>
+              <h1 class="font-bold">Pet Bed</h1>
+              <h2>$39.99</h2>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
