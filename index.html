@@ -152,7 +152,7 @@
 
     <!-- category section -->
 
-    <section class="md:container mx-auto mb-32">
+    <section class="md:container mx-auto mb-32 lg:px-8 px-3">
       <h1 class="mb-10 text-4xl ad">Browse By Categories</h1>
       <!-- cards -->
       <div class="grid lg:grid-cols-6 grid-cols-2 lg:gap-6 gap-2">
@@ -229,7 +229,7 @@
 
     <!-- pet products -->
 
-    <section class="mb-40 bg-[#fff9f4] py-40">
+    <section class="mb-40 bg-[#fff9f4] py-40 lg:px-8 px-3">
       <div class="md:container mx-auto">
         <h1 class="mb-10 text-4xl ad">Trending Pet Products</h1>
         <!-- cards -->
@@ -408,26 +408,26 @@
 
     <!-- low price section -->
 
-    <section class="mb-40 relative">
+    <section class="mb-40 relative ">
       <div>
         <!-- low price section -->
         <div class="md:container mx-auto mb-[405px]">
           <h1 class="mb-10 text-4xl ad">Everyday low Price</h1>
           <div class="grid grid-cols-5 gap-5">
             <!-- grooming mitt -->
-            <div
-              class="flex lg:col-span-3 col-span-full justify-between items-center flex-1 bg-gradient-to-r from-[#f8ccfb] to-[#acd2fd] rounded-xl"
+            <div 
+              class="flex lg:col-span-3 col-span-full justify-between lg:items-center flex-1 bg-gradient-to-r from-[#f8ccfb] to-[#acd2fd] rounded-xl"
             >
-              <div class="pl-12">
-                <h3 class="font-semibold pb-2">Under Price</h3>
-                <h1 class="text-4xl ad">Pet Grooming Mitt</h1>
-                <h2 class="text-xl font-semibold my-3 text-white">
+              <div class="lg:pl-12 pl-4 pt-4">
+                <h3 class="font-semibold pb-2 hidden md:block">Under Price</h3>
+                <h1 class="lg:text-4xl text-2xl ad">Pet Grooming Mitt</h1>
+                <h2 class="text-xl font-semibold my-3 text-white hidden md:block">
                   (Easy Hair Removal)
                 </h2>
                 <h1 class="text-4xl font-bold ad">$7.99</h1>
               </div>
               <div>
-                <img src="c1-assets/cute-dog-mid.png" alt="" />
+                <img class="w-[200px] md:w-full" src="c1-assets/cute-dog-mid.png" alt="" />
               </div>
             </div>
             <!-- T-shirt for dogs -->
@@ -446,8 +446,9 @@
         </div>
 
         <!-- news section -->
-        <div
-          class="absolute left-32 bottom-96  md:container mx-auto bg-[#fff9f4] lg:flex justify-evenly items-center py-10 rounded-lg"
+        <div class="md:container">
+          <div
+          class="absolute max-w-[1200px] left-0 right-0 lg:bottom-96 bottom-[550px] mx-auto bg-[#fff9f4] lg:flex justify-evenly items-center py-10 rounded-lg"
         >
           <div>
             <img src="c1-assets/cute-pet-mid.png" alt="" />
@@ -467,24 +468,28 @@
             <button class="btn btn-warning">Subscribe</button>
           </div>
         </div>
+        </div>
         <!-- footer section -->
 
         <footer class="bg-[#f9df8a]">
           <footer
-            class="md:container flex justify-between sm:footer-horizontal mx-auto pt-80 pb-36"
+            class="md:container lg:flex justify-between sm:footer-horizontal mx-auto pt-80 pb-36"
           >
             <nav class="flex flex-col w-3/12 gap-6">
               <div class="flex items-center gap-3">
-                <img src="c1-assets/logo-footer.png" alt="">
-              <h6 class="text-2xl font-bold">Browse4Pets</h6>
+                <img src="c1-assets/logo-footer.png" alt="" />
+                <h6 class="text-2xl font-bold">Browse4Pets</h6>
               </div>
-              <p class="text-gray-600">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+              <p class="text-gray-600">
+                Discover a world of treats, toys, and essentials handpicked for
+                your furry friends
+              </p>
             </nav>
             <nav class="flex flex-col gap-8">
               <a class="link link-hover text-xl">Find a pet</a>
               <a class="link link-hover text-xl">Breeds</a>
               <a class="link link-hover text-xl">Contact us</a>
-             </nav>
+            </nav>
             <nav>
               <h6 class="footer-title">Follow Us</h6>
               <div class="grid grid-flow-col gap-4">
@@ -531,7 +536,6 @@
             </nav>
           </footer>
         </footer>
-        
       </div>
     </section>
   </body>
